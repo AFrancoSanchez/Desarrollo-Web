@@ -34,6 +34,18 @@ body {
 }
 
 .navegacion-principal {
-	
+	display: flex;
+	justify-content: space-between;
 }
 
+.navegacion-principal a {
+	color: var(--blanco);
+	text-decoration: none;
+	font-weight: bold;
+	padding: 1rem;
+}
+
+.navegacion-principal a:hover, a:focus {
+	background-color: var(--primario);
+	color: var(--oscuro);
+}
